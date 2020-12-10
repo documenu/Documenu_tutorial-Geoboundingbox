@@ -1,6 +1,6 @@
 ![](https://res.cloudinary.com/deg2db9ip/image/upload/v1607243698/documenu-email-logo-blue_vgqfw9.png)
 
-# [Documenu](https://documenu.com?utm_source=rapidapi&utm_medium=tutorial&utm_campaign=geoboundingbox)
+#[Documenu](https://documenu.com?utm_source=github&utm_medium=tutorial&utm_campaign=geoboundingbox)
 
 ## US Restaurant Menu API
 
@@ -13,7 +13,6 @@ Documenu takes advantage of various types of geojson plotting to provide greater
 First use a tool that will provide you with the points that you need. My api takes two inputs, top left and bottom right of a bounding box. The tool i like to use is: https://geojson.io/ 
 
 Then Use this Tool here:
-
 ![](https://res.cloudinary.com/deg2db9ip/image/upload/v1607611960/Documenu-Tutorials/Screen_Shot_2020-12-10_at_8.27.00_AM_ckcnyl.png)
 
 To draw your desired bounding box like this:
@@ -70,7 +69,7 @@ top_left=41.14143302653628,-74.4488525390625
 ```
 
 Now just put them in as a query parameter in the API url, along with your api key:
-[Get An API Key Here](https://documenu.com/register?utm_source=rapidapi&utm_medium=tutorial&utm_campaign=geoboundingbox)
+[Get An API Key Here](https://documenu.com/register?utm_source=github&utm_medium=tutorial&utm_campaign=geoboundingbox)
 
 `https://documenu.p.rapidapi.com/restaurants/geobbox?size=5&top_left=41.14143302653628,-74.4488525390625&bottom_right=40.3549167507906,-73.3502197265625&YOUR_API_KEY`
 
@@ -211,7 +210,7 @@ And the response from the API is this:
 }
 ```
 
-Its that simple. If you want to try this yourself, all you need to go is sign up for a free account at [Documenu.com](https://documenu.com/register?utm_source=rapidapi&utm_medium=tutorial&utm_campaign=geoboundingbox)
+Its that simple. If you want to try this yourself, all you need to go is sign up for a free account at [Documenu.com](https://documenu.com/register?utm_source=github&utm_medium=tutorial&utm_campaign=geoboundingbox)
 
-Free Accounts can make up to 500 API calls a month. Or you can check out our other priing plans here: [Pricing](https://documenu.com/pricing?utm_source=rapidapi&utm_medium=tutorial&utm_campaign=geoboundingbox)
+Free Accounts can make up to 500 API calls a month. Or you can check out our other priing plans here: [Pricing](https://documenu.com/pricing?utm_source=github&utm_medium=tutorial&utm_campaign=geoboundingbox)
 
